@@ -1,0 +1,23 @@
+.intro__list {
+  list-style: none;
+  margin: 0;
+  padding: 33px 0 0 0;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 700;
+  min-width: 288px;
+}
+
+@media screen and (min-width: 768px){
+  .intro__list{
+    min-width: 720px;
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+  .intro__list{
+    min-width: 690px;
+  }
+}
