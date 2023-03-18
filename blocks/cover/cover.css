@@ -3,7 +3,7 @@
   width: 100%;
   height: calc(100vw / 1.6);
   max-height: 740px;
-  minh: 200px;
+  min-height: 200px;
   color: white;
   text-decoration: none;
   background-image: url("../../images/__overlay.png"),
