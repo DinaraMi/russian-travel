@@ -10,10 +10,10 @@
   <div class="page">
     <header class="header">
       <img class="header__logo" src="./images/__logo.svg" alt="логотип">
-      <nav class="header__link">
-        <a href="#" class="header__link-lang header__link-lang_underline">Ru</a>
-        <a href="#" class="header__link-lang header__link-lang_underline">En</a>
-      </nav>
+      <div class="header__link">
+        <a href="#" class="header__link-lang header__link-lang_selected">Ru</a>
+        <a href="#" class="header__link-lang header__link-lang_selected">En</a>
+      </div>
     </header>
     <main class="content">
       <section class="lead">
@@ -33,7 +33,7 @@
           <li>Аэропортов<span class="intro__list-span"> 241</span></li>
         </ul>
       </section>
-      <section class="photo-grid">
+      <section class="photo-grid" aria-label="секция с фото">
         <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="вид из окна">
         <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="вид на горы в облаках">
         <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="собака на сене">
@@ -52,7 +52,7 @@
           <h3 class="place__title">Куршская коса</h3>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="http://park-kosa.ru">park-kosa.ru</a>
+            <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
           </div>
           <img class="place__images" src="./images/place-kosa.jpg" alt="Куршская коса">
           <div class="place__paragraphs">
@@ -64,7 +64,7 @@
           <h3 class="place__title">Кольский</h3>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
+            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
           </div>
           <img class="place__images" src="./images/place-kolsky.jpg" alt="Кольский">
           <div class="place__paragraphs">
@@ -76,7 +76,7 @@
           <h3 class="place__title">Алтай</h3>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
+            <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank">YouTube</a>
           </div>
           <img class="place__images" src="./images/place-altai.jpg" alt="Алтай">
           <div class="place__paragraphs">
@@ -88,7 +88,7 @@
           <h3 class="place__title">Зимний Байкал</h3>
           <div class="place__website">
             <p class="place__url-heading" >URL</p>
-            <a class="place__link" href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
+            <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
           </div>
           <img class="place__images" src="./images/place-winter-baikal.jpg" alt="Зимний Байкал">
           <div class="place__paragraphs">
@@ -100,7 +100,7 @@
           <h3 class="place__title">Карелия</h3>
           <div class="place__website">
             <p class="place__url-heading">URL</p>
-            <a class="place__link" href="http://vodlozero.ru">http://vodlozero.ru/</a>
+            <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
           </div>
           <img class="place__images" src="./images/place-karelia.jpg" alt="Карелия">
           <div class="place__paragraphs">
@@ -108,20 +108,20 @@
           </div>
         </div>
       </section>
-      <a class="cover-link" href="https://stampsy.com/na-elektrichkakh-do-baikala">
         <section class="cover">
-          <h3 class="cover__title">До Байкала «на&nbsp;собаках»&nbsp;</h3>
-          <h4 class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</h4>
+          <a class="cover-link" href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+          <h2 class="cover__title">До Байкала «на&nbsp;собаках»&nbsp;</h2>
+          <p class="cover__subtitle">По мотивам учебной темы о&nbsp;Транссибе&nbsp;—&nbsp;путешествие от&nbsp;столицы&nbsp;до&nbsp;Байкала&nbsp;на&nbsp;электричках.</p>
+        </a>
         </section>
-      </a>
     </main>
     <footer class="footer">
       <nav class="footer__links">
-        <a class="footer__link" href="https://yandex.ru/maps">Карты</a>
-        <a class="footer__link" href="https://yandex.ru/pogoda">Погода</a>
-        <a class="footer__link" href="https://rasp.yandex.ru">Расписание</a>
-        <a class="footer__link" href="https://calendar.yandex.ru">Календарь</a>
-        <a class="footer__link" href="https://travel.yandex.ru">Путешествия</a>
+        <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+        <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+        <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
       </nav>
       <p class="footer__copyright">© 2023. Динара Михайлова</p>
     </footer>

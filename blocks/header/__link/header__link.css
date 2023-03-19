@@ -5,6 +5,10 @@
   min-width: 62px;
 }
 
+.header__link:hover{
+  opacity: 0.8;
+}
+
 @media (min-width: 768px){
   .header__link{
     min-width: 78px;
