@@ -1,4 +1,4 @@
-.cover-link{
+.cover__background{
   min-width: 320px;
   width: 100%;
   height: calc(100vw / 1.6);
@@ -19,22 +19,24 @@
   z-index: 1;
 }
 
-.cover-link::before{
+.cover__background::before{
   content: "";
   background: #2a2c2f;
   opacity: 0.3;
   position: absolute;
   top: 0;
   left: 0;
+  right: 0;
+  bottom: 0;
   z-index: -1;
 }
 
-.cover-link:hover::before{
+.cover__background:hover::before{
   opacity: 0.8;
 }
 
 @media screen and (min-width: 768px){
-  .cover-link{
+  .cover__background{
     min-height: 480px;
     margin-top: 90px;
     margin-bottom: 0;
@@ -42,7 +44,7 @@
 }
 
 @media screen and (min-width: 1024px){
-  .cover-link{
+  .cover__background{
     margin-top: 92px;
     max-width: 1184px;
   }
